@@ -1,38 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-
-*{
-    font-family: 'Inter';
+* {
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    color: #030616;
 }
-body{
+
+body {
     background-color: #F8FAFC;
 }
 
-.header{
+.header {
     padding: 70px;
     background-color: #ffffff;
     text-align: center;
 }
 
-.header p{
+.header p {
     padding: 10px;
 }
-.FAQ{
+
+.FAQ {
     font-weight: 600;
     font-size: 36px;
     line-height: 2.25rem;
-
 }
 
-h2{
+.container{
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D2D5DA;
+}
+
+
+h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.5rem;
+    margin-bottom: 24px;
 }
-p, ol{
-    font-weight: 400; 
-    font-size: 16px; 
+p{
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1rem;
+    margin-bottom: 24px;
+}
+ul, ol {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-bottom: 16px;
+}
+
+
+
+
+a {
+    color: #4E80EE;
+    text-decoration: none; 
+    font-family: 'Inter', sans-serif; 
+}
+
+a:hover {
+    color: #3456A5; /* Cambia el color al pasar el cursor */
 }
